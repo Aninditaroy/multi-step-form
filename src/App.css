@@ -8,7 +8,10 @@ body {
 .StepButton-d6-0-2-12.active,
 .StepButton-d10-0-2-22.active,
 .StepButton-d14-0-2-36.active,
-.StepButton-d14-0-2-30.active {
+.StepButton-d14-0-2-30.active,
+.StepButton-d0-0-2-6.active,
+.StepButton-d4-0-2-14.active,
+.StepButton-d6-0-2-18.active {
   background-color: #664de5 !important;
 }
 
@@ -16,7 +19,10 @@ body {
 .StepButton-d2-0-2-8.completed,
 .StepButton-d6-0-2-12.completed,
 .StepButton-d10-0-2-22.completed,
-.StepButton-d14-0-2-30.completed {
+.StepButton-d14-0-2-30.completed,
+.StepButton-d0-0-2-6.completed,
+.StepButton-d0-0-2-6.completed,
+.StepButton-d4-0-2-14.completed {
   background-color: #664de5 !important;
 }
 
