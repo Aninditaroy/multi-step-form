@@ -14,10 +14,10 @@ This will React on port 3000.Open any browser to verify it's working.
 
 ### Screenshots
 *
- ![alt text](https://i.ibb.co/C64v42V/Screenshot-3.png)
+ ![alt text](https://i.ibb.co/bF5h40p/Screenshot-1.png)
 
  *
-![alt text](https://i.ibb.co/bF5h40p/Screenshot-1.png)
+![alt text](https://i.ibb.co/hMyrBDX/Screenshot-2.png)
 
 *
-![alt text](https://i.ibb.co/hMyrBDX/Screenshot-2.png)
+![alt text](https://i.ibb.co/C64v42V/Screenshot-3.png)
