@@ -5,11 +5,20 @@ body {
 }
 
 .StepButton-d2-0-2-8.active,
-.StepButton-d6-0-2-12.active {
+.StepButton-d6-0-2-12.active,
+.StepButton-d10-0-2-22.active,
+.StepButton-d14-0-2-36.active,
+.StepButton-d14-0-2-30.active {
   background-color: #664de5 !important;
 }
 
 
-.StepButton-d2-0-2-8.completed {
+.StepButton-d2-0-2-8.completed,
+.StepButton-d6-0-2-12.completed,
+.StepButton-d10-0-2-22.completed {
+  background-color: #664de5 !important;
+}
+
+.Connector-0-2-15.completed {
   background-color: #664de5 !important;
 }
