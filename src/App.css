@@ -29,3 +29,25 @@ body {
 .Connector-0-2-15.completed {
   background-color: #664de5 !important;
 }
+
+/* .Connector-0-2-15.completed,
+.Connector-d3-0-2-19.completed {
+  background-color: #664de5 !important;
+}
+ */
+
+
+
+#RFS-Connector.completed {
+  display: block;
+  border-color: #664de5 !important;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+#RFS-Connector.active {
+  display: block;
+  border-color: #664de5 !important;
+  border-top-style: solid;
+  border-top-width: 1px;
+}

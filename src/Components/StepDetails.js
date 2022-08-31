@@ -10,7 +10,7 @@ const StepDetails = () => {
     const [goSteps, setGoSteps] = useState(0);
     return (
         <div className='my-16'>
-            <Stepper activeStep={goSteps}>
+            <Stepper activeStep={goSteps} connectorStateColors='#664de5 !important'>
                 <Step onClick={() => setGoSteps(0)} />
                 <Step onClick={() => setGoSteps(1)} />
                 <Step onClick={() => setGoSteps(2)} />
