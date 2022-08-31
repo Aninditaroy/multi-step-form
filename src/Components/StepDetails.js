@@ -4,6 +4,7 @@ import { Step, Stepper } from 'react-form-stepper';
 import Account from './Steps/Account';
 import Workspace from './Steps/Workspace';
 import ChoosePlan from './Steps/ChoosePlan';
+import Complete from './Steps/Complete';
 
 const StepDetails = () => {
     const [goSteps, setGoSteps] = useState(0);
@@ -13,7 +14,7 @@ const StepDetails = () => {
                 <Step onClick={() => setGoSteps(0)} />
                 <Step onClick={() => setGoSteps(1)} />
                 <Step onClick={() => setGoSteps(2)} />
-                <Step onClick={() => setGoSteps(3)} label="Complete" />
+                <Step onClick={() => setGoSteps(3)} />
             </Stepper>
             {goSteps === 0 && (
                 <div>
@@ -28,6 +29,11 @@ const StepDetails = () => {
             {goSteps === 2 && (
                 <div>
                     <ChoosePlan setGoSteps={setGoSteps} />
+                </div>
+            )}
+            {goSteps === 3 && (
+                <div>
+                    <Complete setGoSteps={setGoSteps} />
                 </div>
             )}
         </div>
